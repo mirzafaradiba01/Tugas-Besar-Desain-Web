@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Cill's Ice</title>
+    <link rel="stylesheet" type="text/css" href="styleTugas.css">
+</head>
+<body>
+    <header>
+        <div id="logo">ICE<a id="logo1">CREAM</a></div>
+        <span class="p1"><a href="login.php" class="p2">Logout</a></span>
+        <span class="p1"><a href="home.php" class="p2">Home</a></span>
+        <span class="p1"><a href="about.php" class="p2">About</a></span>
+        <span class="p1"><a href="menu.html" class="p2">Menu</a></span>
+        <!-- <span class="p1"><a href="order.php" class="p2">Order</a></span> -->
+    </header>
+    
+    <div class="menu" id="m1">
+        <div class="efek">
+            <h2>DAFTAR <span class="efek-1"></span></h2>
+        </div>
+        <script>
+            const text = ['MENU CILLS ICE CREAM'];
+            let count = 0;
+            let textIndex = 0;
+            let currentText = '';
+            let words = '';
+    
+            (function ketik(){
+                if(count == text.length){
+                    count = 0;
+                }
+        
+                currentText = text[count];
+                words = currentText.slice(0, ++textIndex);
+                document.querySelector('.efek-1').textContent = words;
+    
+                if(words.length == currentText.length){
+                    textIndex = 0;
+                }
+                setTimeout(ketik, 500);
+            })();
+        </script>
+        <!-- <input class="search" type="text" name="search" id=""> -->
+        <div class="button">
+            <a class="btnsearch" href="menu.php">Search</a>
+            <a class="odr" href="order.php">Order</a>
+        </div>
+
+        <div class="menu-1">
+            <div class="item-1">
+                <img src="img/ice1.jpg">
+                <div class="items">
+                        <b class="b-1">Gelato Vanilla</b>
+                        <p class="p-1">Rp 20.000</p>
+                </div>        
+            </div>
+
+                <div class="item-1">
+                    <img src="img/ice2.jpg">
+                    <div class="items">
+                            <b class="b-1">Gelato Taro</b>
+                            <p class="p-1">Rp 30.000</p>
+                    </div>        
+                </div>
+            
+                <div class="item-1">
+                    <img src="img/ice3.jpg">
+                    <div class="items">
+                            <b class="b-1">Gelato Chocolate</b>
+                            <p class="p-1">Rp 25.000</p>
+                    </div>        
+                </div>
+
+                <div class="item-1">
+                    <img src="img/ice4.jpg">
+                    <div class="items">
+                            <b class="b-1">Gelato Strawberry</b>
+                            <p class="p-1">Rp 25.000</p>
+                    </div>        
+                </div>
+
+                <div class="item-1">
+                    <img src="img/ice13.jpg">
+                    <div class="items">
+                            <b class="b-1">Gelato Matcha</b>
+                            <p class="p-1">Rp 30.000</p>
+                    </div>        
+                </div>
+
+                <div class="item-1">
+                    <img src="img/ice14.jpg">
+                    <div class="items">
+                            <b class="b-1">Gelato Oreo</b>
+                            <p class="p-1">Rp 30.000</p>
+                    </div>        
+                </div>
+
+                <div class="item-1">
+                    <img src="img/ice15.jpg">
+                    <div class="items">
+                            <b class="b-1">Gelato Coffee</b>
+                            <p class="p-1">Rp 28.000</p>
+                    </div>        
+                </div>
+
+                <div class="item-1">
+                    <img src="img/ice16.jpg">
+                    <div class="items">
+                            <b class="b-1">Gelato Peanut</b>
+                            <p class="p-1">Rp 27.000</p>
+                    </div>        
+                </div>
+
+                <div class="item-1">
+                    <img src="img/ice17.jpg">
+                    <div class="items">
+                            <b class="b-1">Gelato Cookies Cream</b>
+                            <p class="p-1">Rp 28.000</p>
+                    </div>        
+                </div>
+
+                <div class="item-1">
+                    <img src="img/ice18.jpg">
+                    <div class="items">
+                            <b class="b-1">Gelato Blueberry</b>
+                            <p class="p-1">Rp 25.000</p>
+                    </div>        
+                </div>
+
+                <div class="item-1">
+                    <img src="img/ice25.jpg">
+                    <div class="items">
+                            <b class="b-1">Gelato Blue Moon</b>
+                            <p class="p-1">Rp 30.000</p>
+                    </div>        
+                </div>
+
+                <div class="item-1">
+                    <img src="img/ice19.jpg">
+                    <div class="items">
+                            <b class="b-1">Vanilla Stick</b>
+                            <p class="p-1">Rp 22.000</p>
+                    </div>        
+                </div>
+
+                <div class="item-1">
+                    <img src="img/ice6.jpg">
+                    <div class="items">
+                           <b class="b-1">Chocolate Stick</b>
+                           <p class="p-1">Rp 20.000</p>
+                    </div>        
+                </div>
+
+                <div class="item-1">
+                    <img src="img/ice5.jpg">
+                    <div class="items">
+                            <b class="b-1">Strawberry Stick</b>
+                            <p class="p-1">Rp 20.000</p>
+                    </div>        
+                </div>
+
+                <div class="item-1">
+                    <img src="img/ice7.jpg">
+                    <div class="items">
+                            <b class="b-1">Matcha Stick</b>
+                            <p class="p-1">Rp 25.000</p>
+                    </div>        
+                </div>
+
+                <div class="item-1">
+                    <img src="img/ice20.jpg">
+                    <div class="items">
+                            <b class="b-1">Vanilla Cone</b>
+                            <p class="p-1">Rp 25.000</p>
+                    </div>        
+                </div>
+
+                <div class="item-1">
+                    <img src="img/ice21.jpg">
+                    <div class="items">
+                            <b class="b-1">Chocolate Cone</b>
+                            <p class="p-1">Rp 25.000</p>
+                    </div>        
+                </div>
+
+                <div class="item-1">
+                    <img src="img/ice22.jpg">
+                    <div class="items">
+                            <b class="b-1">Strawberry Cone</b>
+                            <p class="p-1">Rp 25.000</p>
+                    </div>        
+                </div>
+
+                <div class="item-1">
+                    <img src="img/ice23.jpg">
+                    <div class="items">
+                            <b class="b-1">Matcha Cone</b>
+                            <p class="p-1">Rp 27.000</p>
+                    </div>        
+                </div>
+
+                <div class="item-1">
+                    <img src="img/ice24.jpg">
+                    <div class="items">
+                            <b class="b-1">Blueberry Cone</b>
+                            <p class="p-1">Rp 25.000</p>
+                    </div>        
+                </div>
+
+                <div class="item-1">
+                    <img src="img/ice26.jpg">
+                    <div class="items">
+                            <b class="b-1">Blue Moon Cone</b>
+                            <p class="p-1">Rp 28.000</p>
+                    </div>        
+                </div>
+        </div>
+    </div>
+</body>
+</html>
